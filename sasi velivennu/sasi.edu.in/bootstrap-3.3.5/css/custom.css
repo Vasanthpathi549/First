@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .lead1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .lead1 {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .lead1 {
+        font-size: x-small;
+    }
+}

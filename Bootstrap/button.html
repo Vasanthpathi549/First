@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Button</title>
+</head>
+<body>
+    <a href="" class="btn btn-primary" role="button">Link</a>
+
+    <!-- //Button Tags -->
+    <a href="" type="button" class="btn btn-primary">Button</a>
+
+    <!-- Button Outlines -->
+    <a href="" type="button" class="btn btn-outline-success ">Success</a>
+
+    <!-- Sizes -->
+    <a href="" type="button" class="btn btn-outline-success btn-lg">Success</a>
+    <br>
+
+    <!-- Block level button -->
+    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    <br>
+    <!-- Active state -->
+    <a href="#" class="btn btn-outline-success btn-lg active" role="button" aria-pressed="true">Active</a>
+
+    <!-- Disabled -->
+    <button href="" class="btn btn-success" aria-disabled="true" disabled>Disabled</button>
+
+    <!-- Toggle -->
+    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+        Single toggle
+      </button>
+      <br>
+      <br>
+      <!-- Checkboxes -->
+      <div class="btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-success ">
+          <input type="checkbox"  autocomplete="on"> Checked
+        </label>
+      </div>
+      <br>
+      <!-- Buttongroup -->
+
+      <div class="btn-group" role="group" aria-label="Example">
+          <button type="button" class="btn btn-success">Home</button>
+          <button type="button" class="btn btn-success">Academics</button>
+          <button type="button" class="btn btn-success">Contact Us</button>
+
+      </div>
+
+        <br>
+        <br>
+      <!-- Toolbar -->
+      <div class="btn-toolbar " role="toolbar" >
+          <div class="btn-group mr-2" role="group">
+                <button class="btn btn-secondary">1</button>
+                <button class="btn btn-secondary">2</button>
+                <button class="btn btn-secondary">3</button>
+          </div>
+          <div class="btn-group mr-2" role="group">
+            <button class="btn btn-secondary">4</button>
+            <button class="btn btn-secondary">5</button>
+            <button class="btn btn-secondary">6</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button class="btn btn-secondary">7</button>
+        </div>
+      </div>
+
+      <!-- Input Group Example -->
+      <br>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text" id="btnGroupAddon2">@</div>
+        </div>
+        <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+      </div>
+      <br>
+
+      <!-- Dropdowns -->
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Dropdowns</button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a href="#" class="dropdown-item">DD1</a>
+                <a href="#" class="dropdown-item">DD2</a>
+            </div>  
+
+        </div>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+      
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- //Cards -->
+      <br>
+      <br>
+      <div class="card">
+          <h5 class="card-title">Title</h5>
+          <h6 class="card-subtitle mb-2">Subtitle</h6>
+          <a href="" class="card-link">Go to</a>
+          <p class="card-body">Hello Vasanth</p>
+      </div>
+      <br>
+
+      <div class="card">
+          <img class="img img-thumbnail card-img-top ml-5 mr-5" src="https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg" width="20%" height="20%" alt="">
+          <p class="card-text m-auto">I'm Card Text</p>
+      </div>
+      <br>
+      <div class="card m-auto" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
+
+      <br>
+      <div class="card m-auto"  style="width: 18rem;">
+          <ul class="list-group list-group-flush">
+              <li class="list-group-item">Jesus</li>
+              <li class="list-group-item">Vasanth</li>
+          </ul>
+      </div>
+
+      <br>  
+      <div class="card">
+          <h5 class="card-header m-auto">Image of a Bird</h5>
+          <img class="card-image"  src="https://www.cameraegg.org/wp-content/uploads/2015/06/canon-powershot-g3-x-sample-images-1.jpg" alt="">
+          <p class="card-text m-auto">Beautiful Bird</p>
+          <h5 class="card-title m-auto">Title</h5>
+          <h6 class="card-subtitle m-auto">Subtitle</h6>
+          <a type="button" class="card-link btn btn-success m-auto" style="width: 18rem;" href="">Card Link</a>
+      </div>
+
+      <br>
+
+      <div class="card bg-dark text-white">
+        <img class="card-img" src="TinDog-Start-master/TinDog-Start-master/images/bizinsider.png" alt="Puppy">
+        <div class="card-img-overlay">
+            <h5 class="card-title ">Insider</h5>
+        </div>
+      </div>
+      <br>
+      <!-- Card Styles -->
+      <div class="card text-white bg-success m-auto" style="width: 18rem;">
+        <h5 class="card-title m-auto">Title of a Card</h5>
+        <h6 class="card-subtitle m-auto">Subtitle</h6>
+        <p class="card-text m-auto">I'm the card text</p>
+        <ul class="list-group list-group-flush m-auto mb-2" style="width: 8rem;">
+            <li class="list-group-item">Item1</li>
+            <li class="list-group-item">Item2</li>
+        </ul>
+      </div>
+
+      <br>
+
+      <div class="card text-white bg-primary m-auto" style="width: 18rem;">
+        <h5 class="card-title m-auto">Title of a Card</h5>
+        <h6 class="card-subtitle m-auto">Subtitle</h6>
+        <p class="card-text m-auto">I'm the card text</p>
+        <ul class="list-group list-group-flush m-auto mb-2" style="width: 8rem;">
+            <li class="list-group-item">Item1</li>
+            <li class="list-group-item">Item2</li>
+        </ul>
+      </div>
+      <br>
+
+      <div class="card text-white bg-warning m-auto" style="width: 18rem;">
+        <h5 class="card-title m-auto">Title of a Card</h5>
+        <h6 class="card-subtitle m-auto">Subtitle</h6>
+        <p class="card-text m-auto">I'm the card text</p>
+        <ul class="list-group list-group-flush m-auto mb-2" style="width: 8rem;">
+            <li class="list-group-item">Item1</li>
+            <li class="list-group-item">Item2</li>
+        </ul>
+      </div>
+
+      <br>
+
+      <div class="card text-white bg-secondary m-auto" style="width: 18rem;">
+        <h5 class="card-title m-auto">Title of a Card</h5>
+        <h6 class="card-subtitle m-auto">Subtitle</h6>
+        <p class="card-text m-auto">I'm the card text</p>
+        <ul class="list-group list-group-flush m-auto mb-2" style="width: 8rem;">
+            <li class="list-group-item">Item1</li>
+            <li class="list-group-item">Item2</li>
+        </ul>
+      </div>
+
+      <br>
+      <div class="card text-white bg-danger  m-auto" style="width: 18rem;">
+        <h5 class="card-title m-auto">Title of a Card</h5>
+        <h6 class="card-subtitle m-auto">Subtitle</h6>
+        <p class="card-text m-auto">I'm the card text</p>
+        <ul class="list-group list-group-flush m-auto mb-2" style="width: 8rem;">
+            <li class="list-group-item">Item1</li>
+            <li class="list-group-item">Item2</li>
+        </ul>
+      </div>
+
+      <br>
+
+      <div class="card text-white bg-info m-auto" style="width: 18rem;">
+        <h5 class="card-title m-auto">Title of a Card</h5>
+        <h6 class="card-subtitle m-auto">Subtitle</h6>
+        <p class="card-text m-auto">I'm the card text</p>
+        <ul class="list-group list-group-flush m-auto mb-2" style="width: 8rem;">
+            <li class="list-group-item">Item1</li>
+            <li class="list-group-item">Item2</li>
+        </ul>
+      </div>
+
+      <br>
+      <div class="card text-black border-success m-auto" style="width: 18rem;">
+        <h5 class="card-title m-auto">Title of a Card</h5>
+        <h6 class="card-subtitle m-auto">Subtitle</h6>
+        <p class="card-text m-auto">I'm the card text</p>
+        <ul class="list-group text-blacklist-group-flush m-auto mb-2" style="width: 8rem;">
+            <li class="list-group-item">Item1</li>
+            <li class="list-group-item">Item2</li>
+        </ul>
+      </div>
+      <br>
+
+      <!-- Card groups -->
+      <div class="card-group  m-auto ml-12 mr-12">
+        <div class="card border-success" style="width: 8rem;">
+            <h5 class="card-title">Title</h5>
+            <h3 class="card-subtitle">Subtitle</h3>
+            <p class="card-text">Card Text</p>
+            <p class="text-muted">Last updated 3 min ago</p>
+        </div>
+        <div class="card border-warning" style="width: 18rem;">
+            <h5 class="card-title">Title</h5>
+            <h3 class="card-subtitle">Subtitle</h3>
+            <p class="card-text">Card Text</p>
+            <p class="text-muted">Last updated 3 min ago</p>
+        </div>
+      </div>
+      <br>
+
+      <!-- //space between cards -->
+      <div class="card-deck">
+        <div class="card border-success" >
+         
+            <h5 class="card-title">Title</h5>
+            <h3 class="card-subtitle">Subtitle</h3>
+            <p class="card-text">Card Text</p>
+            <p class="text-muted">Last updated 3 min ago</p>
+        </div>
+        <div class="card border-warning" >
+            <h5 class="card-title">Title</h5>
+            <h3 class="card-subtitle">Subtitle</h3>
+            <p class="card-text">Card Text</p>
+            <p class="text-muted">Last updated 3 min ago</p>
+        </div>
+      </div>
+      <br>
+      <!-- Card Columns -->
+      <div class="card-columns">
+        <div class="card border-success" >
+            <h5 class="card-title">Title</h5>
+            <h3 class="card-subtitle">Subtitle</h3>
+            <p class="card-text">Card Text</p>
+            <p class="text-muted">Last updated 3 min ago</p>
+        </div>
+        <div class="card border-warning" >
+            <h5 class="card-title">Title</h5>
+            <h3 class="card-subtitle">Subtitle</h3>
+            <p class="card-text">Card Text</p>
+            <p class="text-muted">Last updated 3 min ago</p>
+        </div>
+      </div>
+      
+
+</body>
